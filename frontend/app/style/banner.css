@@ -1,0 +1,108 @@
+.banner {
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.banner-block {
+  width: 522px;
+  height: 336px;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 54px 54px 54px 54px;
+}
+
+.banner-block-h {
+  font-size: 32px;
+}
+
+.banner-block-p {
+  font-size: 18px;
+}
+
+.banner-block-btn {
+  width: 166px;
+  height: 56px;
+  border: none;
+  font-size: 16px;
+}
+
+
+
+/* styles.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+  max-width: 1900px;
+  position: relative;
+}
+
+.modal-content-360 {
+  width: 100%;
+  height: 800px;
+}
+
+
+
+
+
+/* Для экранов шириной до 1200px (десктопы и большие ноутбуки) */
+@media (max-width: 1200px) {
+  .banner {
+    height: 600px; /* Уменьшаем высоту */
+  }
+}
+
+/* Для экранов шириной до 992px (средние экраны, небольшие ноутбуки) */
+@media (max-width: 992px) {
+  .banner {
+    height: 500px; /* Дополнительно уменьшаем высоту */
+  }
+}
+
+/* Для экранов шириной до 768px (планшеты) */
+@media (max-width: 768px) {
+  .banner {
+    height: 400px; /* Ещё меньше высота */
+  }
+}
+
+/* Для экранов шириной до 576px (мобильные устройства) */
+@media (max-width: 576px) {
+  .banner {
+    height: 300px; /* Минимальная высота для мобильных */
+  }
+}
+
+@media (min-aspect-ratio: 2/1) { /* Для широкоформатных экранов (шире, чем 2:1) */
+  .banner-image {
+    height: 50vh; /* Фиксированная высота в процентах от viewport */
+    width: auto; /* Ширина будет рассчитываться автоматически */
+    margin: 0 auto; /* Центрирование по горизонтали */
+  }
+}
