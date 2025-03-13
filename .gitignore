@@ -15,6 +15,7 @@ Thumbs.db
 /backend/.settings/
 /backend/logs/
 /backend/build/
+/backend/.gradle/
 
 
 *.log
