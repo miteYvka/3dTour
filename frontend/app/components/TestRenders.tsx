@@ -23,15 +23,12 @@ const TestRenders = () => {
     formData.append("file", file);
 
     try {
-      const response = await axios.post(
-        "http://localhost:8082/render/upload",
-        formData,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data", // Важно!
-          },
-        }
-      );
+      // Отправляем запрос на собственный API-маршрут
+      const response = await axios.post("/api/renders", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data", // Важно!
+        },
+      });
 
       if (response.status === 200) {
         const result = response.data;
@@ -57,4 +54,4 @@ const TestRenders = () => {
   );
 }
 
-export default TestRenders
+export default TestRenders;

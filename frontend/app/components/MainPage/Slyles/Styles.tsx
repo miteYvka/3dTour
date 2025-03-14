@@ -4,7 +4,7 @@ export const Styles = () => {
   return (
     <div className="styles">
       <h1 className="styles-h1">Стили</h1>
-      <div className="styles-top">
+      <div className="styles-line">
         <StylesElement
           title="Минимализм"
           src="/img/minimalism.png">
@@ -22,7 +22,7 @@ export const Styles = () => {
           src="/img/neoclassic.png">
         </StylesElement>
       </div>
-      <div className="styles-bottom">
+      <div className="styles-line">
         <StylesElement
           title="Скандинавский"
           src="/img/scandinav.png">
