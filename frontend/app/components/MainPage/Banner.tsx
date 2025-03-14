@@ -1,9 +1,9 @@
 'use client'
 import Image from "next/image";
-import TourModal from "./TourModal"; // Убедитесь в правильном пути
 import React, { useState } from "react";
+import TourModal from "../TourModal";
 
-const Banner: React.FC = () => {
+export const Banner: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
   const handleStartTour = (): void => {
@@ -46,5 +46,3 @@ const Banner: React.FC = () => {
     </div>
   );
 };
-
-export default Banner;

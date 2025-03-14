@@ -1,11 +1,11 @@
-import Header from "./components/Header";
-import Banner from "./components/Banner";
+import { Header } from "./components/Header/Header";
+import { MainPage } from "./pages/MainPage";
 
 export default function Home() {
   return (
     <div>
-      <Header></Header>
-      <Banner></Banner>
+      <Header/>
+      <MainPage/>
     </div>
   );
 }

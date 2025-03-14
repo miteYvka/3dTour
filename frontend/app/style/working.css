@@ -1,0 +1,41 @@
+.working {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  width: 100%;
+  color: #2a254b;
+}
+
+.working-h1 {
+  font-size: 24px;
+  font-weight: 350;
+  
+}
+
+.working-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  max-width: 1440px;
+  padding: 64px;
+}
+
+.working-container-element {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.working-container-element-h2 {
+  font-size: 20px;
+  font-weight: 350;
+}
+
+.working-container-element-p {
+  font-size: 16px;
+  font-weight: 300;
+}
