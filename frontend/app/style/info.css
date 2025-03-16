@@ -1,0 +1,27 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-left {
+  height: 411px;
+  width: 40%;
+  background-color: #FFFFFF;
+  padding: 96px;
+}
+
+.info-left-h1 {
+  color: #505977;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  background-color: #FFFFFF;
+}
+
+.info-left-p {
+  font-size: 16px;
+  background-color: #FFFFFF;
+  color: #505977;
+}

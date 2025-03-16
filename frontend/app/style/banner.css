@@ -25,10 +25,12 @@
 .banner-block-h {
   font-size: 32px;
   font-weight: 400;
+  background-color: #FFFFFF;
 }
 
 .banner-block-p {
   font-size: 18px;
+  background-color: #FFFFFF;
 }
 
 .banner-block-btn {

@@ -4,7 +4,9 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 64px;
+  gap: 64px;
+  color: #2A254B;
+  margin-bottom: 64px;
 }
 
 .styles-line {
@@ -13,4 +15,17 @@
   justify-content: space-between;
   width: 100%;
   max-width: 1440px;
+  margin-bottom: 64px;
+}
+
+.styles-h1 {
+  font-weight: 350;
+  margin-right: 1348px;
+  font-size: 32px;
+}
+
+.styles-element-p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 16px;
 }

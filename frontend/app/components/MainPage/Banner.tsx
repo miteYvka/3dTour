@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import React, { useState } from "react";
-import TourModal from "../TourModal";
+import TourModal from "../Temp/TourModal";
 
 export const Banner: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);

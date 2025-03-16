@@ -5,6 +5,8 @@ import "./style/header.css"
 import "./style/banner.css"
 import "./style/working.css"
 import "./style/styles.css"
+import "./style/info.css"
+import "./style/footer.css"
 
 const robotoMono = Roboto_Mono({
   weight: "400",
